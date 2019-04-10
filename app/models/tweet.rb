@@ -1,4 +1,5 @@
 class Tweet < ActiveRecord::Base
     #authentication goes here
-    #has many, belongs too relationships    
+    #belong to user
+    belongs_to :user
 end
